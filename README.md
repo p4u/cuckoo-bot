@@ -13,7 +13,11 @@ So, let's add a reminder for every day (weekday=0 means all days):
 
 `/add dog 0 20:30 Give the dog food`
 
-Then, let's make it noisy, so it will repeat every 10 minutes until we stop it:
+And another to call mum only on sunday:
+
+`/add mum 7 21:00 Call mum`
+
+Then, let's make the dog reminder noisy, so it will repeat every 10 minutes until we stop it:
 
 `/noisy dog 10`
 
